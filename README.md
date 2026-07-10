@@ -22,6 +22,14 @@
 aws configure
 ```
 
+## installing uv
+
+- check [the uv documentation](https://docs.astral.sh/uv/getting-started/installation/)
+
+```sh
+curl -LsSf https://astral.sh/uv/install.sh | sh
+```
+
 ## python3 venv
 
 ```sh
@@ -41,3 +49,5 @@ deactivate
 ```
 
 ## reference
+
+- check [the aws docs boto3](https://docs.aws.amazon.com/boto3/latest/)
