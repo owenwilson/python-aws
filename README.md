@@ -24,25 +24,50 @@ aws configure
 
 ## installing uv
 
-- check [the uv documentation](https://docs.astral.sh/uv/getting-started/installation/)
+- installation [uv package](https://docs.astral.sh/uv/getting-started/installation/)
+- the [uv](https://pydevtools.com/handbook/explanation/uv-complete-guide/) complete guide
 
 ```sh
 curl -LsSf https://astral.sh/uv/install.sh | sh
 ```
 
-## python3 venv
+```sh
+cd python-aws
+```
 
 ```sh
-python3 -m venv venv
+uv venv
+```
+
+- output
+
+```text
+Using CPython 3.14.6 interpreter at: /usr/bin/python
+Creating virtual environment at: .venv
+Activate with: source .venv/bin/activate
+```
+
+- deactivate venv
+
+```sh
+deactivate
+```
+
+## python3 venv
+
+- check [python3 virtual environment documentation](https://docs.python.org/3/library/venv.html)
+
+```sh
+python3 -m venv .venv
 ```
 
 - activate venv
 
 ```sh
-source venv/bin/activate
+source .venv/bin/activate
 ```
 
-- desactive
+- deactivate
 
 ```sh
 deactivate
@@ -50,4 +75,5 @@ deactivate
 
 ## reference
 
-- check [the aws docs boto3](https://docs.aws.amazon.com/boto3/latest/)
+- check [the installation guide](https://docs.aws.amazon.com/boto3/latest/)
+- check [the aws docs boto3](https://docs.aws.amazon.com/boto3/latest/reference/services/s3.html)
