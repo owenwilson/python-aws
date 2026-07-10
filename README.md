@@ -22,4 +22,22 @@
 aws configure
 ```
 
+## python3 venv
+
+```sh
+python3 -m venv venv
+```
+
+- activate venv
+
+```sh
+source venv/bin/activate
+```
+
+- desactive
+
+```sh
+deactivate
+```
+
 ## reference
